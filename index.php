@@ -133,7 +133,7 @@ session_start();
 <div class="dock">
                     <div class="container">
                    
-                    If You Need Any Kind of Help Related to Booking, Canceling, Reservation etc. 
+                     
                     <strong>
                     <a href="FAQ.htm">Click On Me</a>
                     </strong>
