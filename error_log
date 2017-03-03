@@ -1,0 +1,39 @@
+[21-Feb-2017 21:20:45 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/techfoss/public_html/cab/config/connection.php on line 2
+[21-Feb-2017 21:59:30 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'techfoss_railway'@'localhost' to database 'techfoss_cab' in /home/techfoss/public_html/cab/config/connection.php on line 2
+[21-Feb-2017 21:59:39 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'techfoss_railway'@'localhost' to database 'techfoss_cab' in /home/techfoss/public_html/cab/config/connection.php on line 2
+[21-Feb-2017 21:59:39 Asia/Kolkata] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/techfoss/public_html/cab/index.php on line 18
+[21-Feb-2017 21:59:39 Asia/Kolkata] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/techfoss/public_html/cab/index.php on line 19
+[21-Feb-2017 21:59:39 Asia/Kolkata] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/techfoss/public_html/cab/index.php on line 36
+[21-Feb-2017 21:59:51 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'techfoss_railway'@'localhost' to database 'techfoss_cab' in /home/techfoss/public_html/cab/config/connection.php on line 2
+[21-Feb-2017 21:59:51 Asia/Kolkata] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/techfoss/public_html/cab/index.php on line 18
+[21-Feb-2017 21:59:51 Asia/Kolkata] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/techfoss/public_html/cab/index.php on line 19
+[21-Feb-2017 21:59:51 Asia/Kolkata] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/techfoss/public_html/cab/index.php on line 36
+[21-Feb-2017 22:03:35 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/techfoss/public_html/cab/config/connection.php on line 2
+[21-Feb-2017 22:03:41 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/techfoss/public_html/cab/config/connection.php on line 2
+[21-Feb-2017 22:03:41 Asia/Kolkata] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/techfoss/public_html/cab/index.php on line 18
+[21-Feb-2017 22:03:41 Asia/Kolkata] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/techfoss/public_html/cab/index.php on line 19
+[21-Feb-2017 22:03:41 Asia/Kolkata] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/techfoss/public_html/cab/index.php on line 36
+[21-Feb-2017 22:10:17 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'techfoss_railway'@'localhost' to database 'techfoss_cab' in /home/techfoss/public_html/cab/config/connection.php on line 2
+[21-Feb-2017 22:10:26 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'techfoss_railway'@'localhost' to database 'techfoss_cab' in /home/techfoss/public_html/cab/config/connection.php on line 2
+[21-Feb-2017 22:10:26 Asia/Kolkata] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/techfoss/public_html/cab/index.php on line 18
+[21-Feb-2017 22:10:26 Asia/Kolkata] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/techfoss/public_html/cab/index.php on line 19
+[21-Feb-2017 22:10:26 Asia/Kolkata] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/techfoss/public_html/cab/index.php on line 36
+[21-Feb-2017 22:10:38 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'techfoss_railway'@'localhost' to database 'techfoss_cab' in /home/techfoss/public_html/cab/config/connection.php on line 2
+[21-Feb-2017 22:10:38 Asia/Kolkata] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/techfoss/public_html/cab/index.php on line 18
+[21-Feb-2017 22:10:38 Asia/Kolkata] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/techfoss/public_html/cab/index.php on line 19
+[21-Feb-2017 22:10:38 Asia/Kolkata] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/techfoss/public_html/cab/index.php on line 36
+[21-Feb-2017 22:11:13 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'techfoss_cab'@'localhost' (using password: YES) in /home/techfoss/public_html/cab/config/connection.php on line 2
+[21-Feb-2017 22:11:18 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'techfoss_cab'@'localhost' (using password: YES) in /home/techfoss/public_html/cab/config/connection.php on line 2
+[21-Feb-2017 22:11:18 Asia/Kolkata] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/techfoss/public_html/cab/index.php on line 18
+[21-Feb-2017 22:11:18 Asia/Kolkata] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/techfoss/public_html/cab/index.php on line 19
+[21-Feb-2017 22:11:18 Asia/Kolkata] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/techfoss/public_html/cab/index.php on line 36
+[21-Feb-2017 22:11:33 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'techfoss_cab'@'localhost' (using password: YES) in /home/techfoss/public_html/cab/config/connection.php on line 2
+[21-Feb-2017 22:11:39 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'techfoss_cab'@'localhost' (using password: YES) in /home/techfoss/public_html/cab/config/connection.php on line 2
+[21-Feb-2017 22:11:44 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'techfoss_cab'@'localhost' (using password: YES) in /home/techfoss/public_html/cab/config/connection.php on line 2
+[21-Feb-2017 22:11:44 Asia/Kolkata] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/techfoss/public_html/cab/index.php on line 18
+[21-Feb-2017 22:11:44 Asia/Kolkata] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/techfoss/public_html/cab/index.php on line 19
+[21-Feb-2017 22:11:44 Asia/Kolkata] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/techfoss/public_html/cab/index.php on line 36
+[21-Feb-2017 22:19:09 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'techfoss_cab'@'localhost' (using password: YES) in /home/techfoss/public_html/cab/config/connection.php on line 2
+[21-Feb-2017 22:20:32 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'techfoss_railway'@'localhost' (using password: YES) in /home/techfoss/public_html/cab/config/connection.php on line 2
+[21-Feb-2017 22:21:11 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'techfoss_railway'@'localhost' to database 'techfoss_cab' in /home/techfoss/public_html/cab/config/connection.php on line 2
+[21-Feb-2017 22:28:17 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'techfoss_cab'@'localhost' to database 'techfoss_cab' in /home/techfoss/public_html/cab/config/connection.php on line 2

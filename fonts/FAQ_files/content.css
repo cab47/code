@@ -1,0 +1,188 @@
+/* CSS Document */
+h2{font:bold 18px arial; color:#ff0000; margin:0; padding:0;}
+h3{font:bold 14px arial; color:#0099FF; margin:0; padding:0;}
+h4{font:bold 13px arial; color:#333; margin:0; padding:0;}
+hr{border-top:1px solid #fff; border-right:1px solid #fff; border-bottom:1px solid #ccc; border-left:1px solid #fff;}
+table{border-collapse:collapse;}
+.body{width:847px; margin:0 auto; margin-top:12px;}
+.bodyNoSPC{width:850px; margin:0 auto;}
+.normaltxt{font:12px arial; color:#333;}
+.normalBtxt{font:bold 12px arial; color:#666;}
+.conthead{background-color:#CCCCCC; color:#333; font:bold 13px arial; border-left:1px solid #fff;}
+.botline{font:12px arial; color:#5a5a5a; border-bottom:1px solid #ccc; height:28px;}
+.txtfld{width:120px; border:1px solid #ccc; font:11px arial; color:#333;}
+.Datefld{width:100px; height:14px; font:11px arial; color:#ccc; border:1px solid #ccc;}
+.datetxt{width:99px; border:1px solid #ccc; color:#333; height:18px;}
+.txtfldPwd{width:100px; border:1px solid #ccc; font:12px arial; color:#333;}
+.agefld{width:35px; border:1px solid #ccc; text-align:center; font:11px arial; height:18px;}
+.pnrone{width:35px; border:1px solid #ccc; font:11px arial; height:18px;}
+.pnrtwo{width:80px; border:1px solid #ccc; font:11px arial; height:18px;}
+.normalfld{width:100px; border:1px solid #ccc; text-align:center; font:11px arial; height:18px;}
+.bigfld{width:180px; border:1px solid #ccc; font:11px arial; color:#333;}
+.welcomealert{width:620px; margin-bottom:12px; margin-top:5px; float:right;}
+.combo{width:105px; font:11px arial; color:#333; border:1px solid #ccc;}
+.planCombo{width:97px; border:1px solid #cccccc; font:11px arial;}
+
+.gendercombo{border:1px solid #ccc; width:60px; font:11px arial; color:#333;}
+.foodcombo{border:1px solid #ccc; width:70px; font:11px arial; color:#333;}
+.berthcombo{border:1px solid #ccc; width:90px; font:11px arial; color:#333;}
+.quickbookcombo{border:1px solid #ccc; width:130px; font:11px arial; color:#333;}
+.autocombo{border:1px solid #ccc; font:12px arial; color:#333;}
+
+.orngtxt{color:#FD6906; font:bold 12px arial;}
+.smlLinks a{font:10px arial; color:#666; padding-left:2em;}
+.smlLinks a:hover{color:#333;}
+
+/*Border Coloums Start*/
+.borderTRB{border-top:1px solid #ccc; border-right:1px solid #ccc; border-bottom:1px solid #ccc; font:12px arial; color:#5A5A5A; padding-left:3px;}
+.borderRB{border-right:1px solid #ccc; border-bottom:1px solid #ccc; font:12px arial; color:#5A5A5A; padding-left:3px;}
+.borderTLB{border-top:1px solid #ccc; border-left:1px solid #ccc; border-bottom:1px solid #ccc; font:12px arial; color:#5A5A5A; padding-left:3px; }
+.borderB{border-bottom:1px solid #ccc; font:12px arial; color:#5A5A5A; padding-left:3px;}
+.borderR{border-right:1px solid #ccc; font:12px arial; color:#5A5A5A; padding-left:3px;}
+.BlkborderB{border-bottom:1px solid #ccc; font:12px arial; color:#000; padding-left:3px;}
+.borderTB{border-top:1px solid #ccc; border-bottom:1px solid #ccc; font:12px arial; color:#5A5A5A; padding-left:3px;}
+.borderT{border-top:1px solid #ccc; font:12px arial; color:#5A5A5A; padding-left:3px;}
+.borderLB{border-left:1px solid #ccc; border-bottom:1px solid #ccc; font:12px arial; color:#5A5A5A; padding-left:3px;}
+.borderBTM{border-bottom:1px solid #ccc; font:12px arial; color:#5A5A5A;}
+.contTxt{ font:12px arial; color:#5A5A5A;}
+.contTxt11{ font:11px arial; color:#5A5A5A;}
+.signuptxt{font:bold 11px verdana; color:#ffffff; padding-left:0.5em; text-align:left;}
+#loginhead{width:auto; float:left; padding:2px 0; border-bottom:1px solid #fff;}
+.buttonbook1{background-color:#fff; border:1px solid #fff; cursor:pointer; text-decoration:underline; color:#0000cc;}
+
+/*Border Coloums End*/
+
+/*Sign In Black Start*/
+#TransSign{width:585px; background-color:#979997; }
+#arrow{width:auto; background-color:#FFFFFF; height:7px;}
+#arrow img{margin-right:4em;}
+.whtxt{font:11px verdana; color:#ffffff;}
+.btn{background-color:#4A9ACE; font:bold 12px arial; color:#FFFFFF; border:1px solid #fff;}
+/*Sign In Black End*/
+
+.ErrorMsg{width:98%; margin:0 auto; border:1px solid #ff0000; background-color:#FFCCCC; font:bold 12px arial; color:#ff0000; text-align:center; padding:1px; }
+.Errorbutton{background-color:#ff0000; color:#fff; border:1px solid #fff; margin-left:6em; cursor:pointer;}
+.price{font:bold 18px arial; color:#F38B04;}
+
+.redcol{font:10px verdana; color:#336699;}
+.starmand{font:10px verdana; color:#ff0000;}
+.subheading{font:10px verdana; color:#0099ff;}
+.bgndtxt{background-color:#f1f1f1; font:12px arial; color:#333; padding:5px;}
+.Tkt{background-color:#4C99CC; width:100%; margin:4px auto; font:bold 12px arial; color:#fff; text-align:center;}
+.msgtxt{background-color:#f1f1f1; border:1px solid #ccc; font:10px verdana; color:#333; padding:4px; text-align:justify;}
+.normalmsgtxt{font:11px verdana; color:#666; text-align:justify;}
+.normaltxt1{font:12px arial; color:#5A5A5A;}
+
+.border1{border:1px dotted #ccc;}
+.boder-lft{border-left:2px solid #fff; font:12px arial; color:#333;}
+.boder-lftB{border-left:2px solid #fff; font:12px arial; color:#333; border-bottom:1px solid #ccc;}
+.border-btm{border-bottom:1px solid #EAE9E9;}
+.border-btmT{border-bottom:1px solid #EAE9E9; font:11px arial; color:#2881BB;}
+.border-btmX{border-bottom:1px solid #EAE9E9; color:#BFBFBF; font:11px verdana;}
+.RedMsgBox{color:#FF3300; background-color:#f1f1f1; border:1px solid #ccc; font:10px verdana; padding:4px; text-align:justify;}
+.redmsgtxt{font:11px arial; color:#FF3300;} 
+.linktxt{font:10px arial; color:#4C99CC;}
+.linktxt1{font:12px arial; color:#4C99CC;}
+.RedMsgNor{color:#FF3300; font:11px verdana; padding:4px; text-align:justify;}
+.e_tkt{font:bold 12px arial; color:#fff;}
+.i_tkt{font:bold 12px arial; color:#000;}
+.headingB{font:bold 12px arial; color:#0033ff;}
+.MandatoryUL{font:12px arial; color:#666; border-bottom:1px solid #ccc;}
+.Mandatory{font:12px arial; color:#666;}
+.goBtn{background-color:#f1f1f1; border:1px solid #fff; font:bold 12px arial; cursor:pointer;}
+.boldEleven{font-size: 10px; color: #000000; font-family: Arial, Verdana, Helvetica, Sans-Serif; text-decoration: none; font-weight: normal;}
+
+.regiUserlink{font:11px verdana; color:#fff; cursor:pointer; list-style-type:none; list-style-position:outside; text-decoration:underline;}
+.txt1{font:12px arial; color:#666;}
+.hand{list-style:none; cursor:pointer; color:#ff0000; border-left:1px solid #fff;}
+.handover{cursor:pointer;}
+
+/*same class in printticket.css to update ------ Start*/
+
+.content_12{width:auto; margin-left:1.5em;}
+.content_12 ul{padding:0px; margin:0 10px;}
+.content_12 ul li{color:#333; font:12px arial; padding:3px 0; margin:0; list-style-position:outside; list-style-type:square;  white-space:normal;}
+.yyyy{color:#0099FF;}
+/*same class in printticket.css to update ------ End*/
+.content_11{width:auto; margin-left:1.5em;}
+.content_11 ul{padding:0px; margin:0 0px;}
+.content_11 ul li{color:#333; font:11px arial; padding:0px 0; margin:0; list-style-position:outside; list-style-type:square;  white-space:normal;}
+
+.content_nor{width:auto; margin-left:.5em;}
+.content_nor ul{padding:0px; margin:0px 10px;}
+.content_nor ul li{color:#333; font:12px arial; padding:5px 0; margin:0; list-style-position:outside; list-style-type:none;  white-space:normal;}
+
+.content_alpha{width:auto; margin-left:1.5em;}
+.content_alpha ul{padding:0px; margin:0 10px;}
+.content_alpha ul li{color:#333; font:12px arial; padding:3px 0; margin:0; list-style-position:outside; list-style-type:lower-alpha; white-space:normal;}
+
+/*same class in printticket.css to update ------ Start*/
+.content_numeric{width:auto; margin-left:1.5em;}
+.content_numeric ul{padding:0px; margin:0 10px;}
+.content_numeric ul li{color:#333; font:12px arial; padding:3px 0; margin:0; list-style-position:outside; list-style-type:decimal; white-space:normal;}
+/*same class in printticket.css to update ------ End*/
+
+.trnAvail{border:1px solid #4A9ACE; width:235px; height:199px;}
+.trnDtl{border:1px solid #4A9ACE; width:365px; height:199px;}
+.trnDtlH{background-color:#4A9ACE; font:bold 13px arial; padding:4px 0 4px 5px; color:#ffffff; text-align:left;}
+.trnDtlTxt{font:12px arial; color:#333;}
+.fareToolHead{font:bold 12px arial; color:#fff; padding-left:3px;}
+.fareToolTip{font:10px arial; color:#333; padding-left:3px;}
+
+/*same class in stylesheet.css and printTicket.css to update*/
+/* CSS Sprite Start*/
+.alertNote{border:1px solid #4A9ACE; width:98%; margin:0 auto; background-color:#E7F4FD; font:12px arial; color:#333; padding:1px; text-align:center; white-space:normal;}
+.help_icon{background-image:url(/beta_images/sliceicons.gif); background-position:-517px -18px; margin-left:3px; width:15px; height:15px; position:absolute; cursor:pointer;}
+.fatch_stn{background-image:url(/beta_images/sliceicons.gif); vertical-align:middle; border:0px solid #000; background-position:-536px -15px; margin-left:3px; width:20px; height:20px; position:relative; cursor:pointer; float:left; display:inline;}
+.calander_ico{background-image:url(/beta_images/sliceicons.gif); border:0px solid #000; background-position:-536px -15px; margin-left:3px; width:20px; height:20px; position:relative; cursor:pointer; float:left; display:inline;}
+.captcha_ico{background-image:url(/beta_images/sliceicons.gif); border:0px solid #000; background-position:-474px -18px; margin-left:3px; width:16px; height:16px; position:relative; cursor:pointer; float:left; display:inline; margin-top:3px;}
+.plus_icon{background-image:url(/beta_images/sliceicons.gif); border:0px solid #000; background-position:-27px 18px; margin-left:3px; width:9px; height:9px; position:relative; cursor:pointer; float:left; display:inline;}
+.verificationcode{background-image:url(/beta_images/sliceicons.gif); border:0px solid #000; background-position:0px 0px; height:12px; position:relative}
+#polling{border:0px solid #000; background-image:url(/beta_images/sliceicons.gif); background-position:-452px -37px; cursor:pointer; height:15px; width:103px; float:left; display:inline }
+
+.pymtredcol{color:#336699; font:11px arial; border-top:1px solid #f1f1f1; border-bottom:1px solid #f1f1f1; padding:2px 0 8px 0}
+.pymtborderB{font:11px arial; color:#333; padding:2px 0 2px 0; border-bottom:1px solid #f1f1f1;}
+.pymttxtfld{border:1px solid #ccc; font:11px arial; color:#333;}
+.pghead{color:#333; font:bold 12px arial;}
+
+/* CSS Sprite End*/
+/* CONTENT SECTION MODULES - 'Common'
+
+--------------------------------------------------------- */
+
+.CM-Content {
+	padding: 5px;
+}
+
+a.CM-Link {
+	color: #FFFFFF;
+}
+
+/* CONTENT SECTION MODULES 
+--------------------------------------------------------- */
+
+.CM-LeftHeaderText {
+	font-size: 9.5pt;
+	color: #FFFFFF;
+	text-align: left;
+	background-color: #4c99cc;
+}
+.popup {
+	font-size: 9pt;
+	color: #FFFFFF;
+	text-align: left;
+	background-color: #4c99cc;
+	font-family:arial;
+	font-weight:bold;
+}
+
+
+.CM-RightHeaderText {
+	font-size: 9pt;
+	color: #FFFFFF;
+	text-align: right;
+	background-color: #4c99cc;
+}
+
+/*------------------ Module - 'No header' ends --------------------*/
+
