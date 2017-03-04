@@ -53,7 +53,7 @@
    </div>*/?>
    <div class="row">
    <div class="container">
-  &copy; Indian Trains Reservation Project, Hosted from 000Webhost, Routed from Dot.tk, Born in Delhi, India.<div class='pull-right'>Developed by Jodha Singh.</div>
+  &copy; NCR Corporation, Gurugram Sec 58.<div class='pull-right'>i<font color="#339900">NCR</font>edible</div>
    </div>
    </div>
    </div>
