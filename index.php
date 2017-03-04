@@ -96,7 +96,7 @@ session_start();
                     <div class="container">
              
                     <div class="carousel-caption">
-                    <h1>Welcome To Indian Railways</h1>
+                    <h1>Welcome To NCR</h1>
               
                     
                    
