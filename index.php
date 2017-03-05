@@ -10,6 +10,8 @@ session_start();
                  $user1=$_REQUEST["user"];
                 //$name=$_REQUEST["E_Name"];
                 //$pass=$_REQUEST["Status"];
+
+                 echo"mein hun sushant";
              
                 
             if($user1=='user')
