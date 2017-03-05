@@ -12,7 +12,7 @@ function cur_date(){
     document.getElementById("date").value= day+"/"+month+"/"+year;
 }
 </script></head>
-<body onload="cur_date()">
+<body onLoad="cur_date()">
 
 
 <?php
@@ -20,14 +20,6 @@ function cur_date(){
 	
 ?> 
 
-<script type="text/javascript">
-function cur_date(){
-    var day=new Date().getDate();
-    var month=new Date().getMonth()+1;
-    var year= new Date().getFullYear();
-    document.getElementById("date").value= day+"/"+month+"/"+year;
-}
-</script>
 <?php
 	require("core/logo.php");
 ?>       
@@ -41,7 +33,7 @@ function cur_date(){
                     
              <div class="content">
     	<div class="row">
-        	<div class="col-lg-offset-1 col-lg-7 well">         
+        	<div class="col-lg-offset-1 col-lg-8 well">         
     
                
                       <?php
@@ -68,7 +60,7 @@ function cur_date(){
 
 <div class="form-group">
 <label><h4>QuickLook Id</h4></label>    
-<input name="jdate" required class="form-control" type="text" placeholder="" />
+<input name="jdate" required class="form-control" value="<?php echo $_SESSION['qlid'] ?>"type="text" placeholder="" />
 </div>   
 <div class="form-group">
 <label><h4>Manager ID</h4></label>  
@@ -96,7 +88,7 @@ function cur_date(){
 <input type="submit" name="submit" class="btn btn-primary" value="Submit"/>
 </form>                    
 </div>
-<div class="col-lg-3  my-sidebar affix">
+<div class="col-lg-2  my-sidebar affix">
   <div class="list-group">
                     <a href="user_profile.php" class="list-group-item active">
                      Edit Profile

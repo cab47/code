@@ -11,7 +11,7 @@ function cur_date(){
 }
 
 </script></head>
-<body onload="cur_date();">
+<body onLoad="cur_date();">
 	<?php
 require_once("core/sessioncheck.php");
 
@@ -335,10 +335,10 @@ $que="INSERT INTO unschedule VALUES('$bookdate','$qid', '$mid','$opid','$ptime',
 <div class="content">
             <div class="col-lg-12">
             
-                    <div class="col-md-7 col-md-offset-1 well">
+                    <div class="col-md-8 col-md-offset-1 well">
                 	
                     <div class="row col-sm-offset-1">	
-<form name="unschedule" onsubmit="return res(this)" class="col-md-8" method="POST">
+<form name="unschedule" onSubmit="return res(this)" class="col-md-8" method="POST">
 
 <div class="form-group">
 <label><h4>DATE</h4></label>
@@ -347,7 +347,7 @@ $que="INSERT INTO unschedule VALUES('$bookdate','$qid', '$mid','$opid','$ptime',
 
 <div class="form-group">
 <label><h4>QuickLook Id</h4></label>		
-<input name="qid" required class="form-control" type="text" placeholder="" />
+<input name="qid" required class="form-control" value="<?php echo $_SESSION['qlid'] ?>" type="text" readonly="true" placeholder="" />
 </div>   
 <div class="form-group">
 <label><h4>Manager ID</h4></label>  
@@ -388,7 +388,7 @@ $que="INSERT INTO unschedule VALUES('$bookdate','$qid', '$mid','$opid','$ptime',
 </div>
 </div>
 </div>
-		<div class="col-md-3  my-sidebar affix">
+		<div class="col-md-2  my-sidebar affix">
 			<div class="list-group">
                     <a href="user_profile.php" class="list-group-item active">
                     Edit Profile
