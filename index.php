@@ -96,11 +96,11 @@ session_start();
                     <div class="container">
              
                     <div class="carousel-caption">
-                    <h1>Welcome To Indian Railways</h1>
+                    <h1>Welcome To NCR Corporation</h1>
               
                     
                    
-                   <p>Serving the Nation from 150 Years</p>
+                   <p>Serving the Nation from 130 Years</p>
                <p><a class="btn btn-lg btn-primary" href="services.php" role="button">Our Services</a></p>
                     </div>
                     </div>
