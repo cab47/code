@@ -96,7 +96,9 @@ session_start();
                     <div class="container">
              
                     <div class="carousel-caption">
+
                     <h1>Welcome To NCR Corporation</h1>
+
               
                     
                    
