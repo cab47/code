@@ -2,25 +2,16 @@
 <html>
 <head>
 <script type="text/javascript">
-
-function cur_date(){
-    var day=new Date().getDate();
-    var month=new Date().getMonth()+1;
-    var year= new Date().getFullYear();
-    document.getElementById("date").value= day+"/"+month+"/"+year;
-}
-
 </script></head>
-<body onLoad="cur_date();">
-	<?php
+<body>
+<?php
 require_once("core/sessioncheck.php");
 
 ?>
 <?php
 	require("core/head.php");
 	
-?> 
-
+?>
 <?php
 	require("core/logo.php");
 	require("config/connection.php");
@@ -329,7 +320,7 @@ $que="INSERT INTO unschedule VALUES('$bookdate','$qid', '$mid','$opid','$ptime',
 
 <div class="page-header col-lg-10 col-lg-offset-1">
                     
-                     <h1>Unscheduled Cab</h1>
+                     <h1>Driver Details</h1>
    </div>  
                
 <div class="content">
@@ -341,45 +332,56 @@ $que="INSERT INTO unschedule VALUES('$bookdate','$qid', '$mid','$opid','$ptime',
 <form name="unschedule" onSubmit="return res(this)" class="col-md-8" method="POST">
 
 <div class="form-group">
-<label><h4>DATE</h4></label>
+<label>
+<h4>Car Number</h4></label>
 <input name="date" id="date" value="" class="form-control" type="text" placeholder="" />
 </div>
 
 <div class="form-group">
-<label><h4>QuickLook Id</h4></label>		
-<input name="qid" required class="form-control" value="<?php echo $_SESSION['qlid'] ?>" type="text" readonly="true" placeholder="" />
-</div>   
+<label>
+<h4>Driver Name</h4></label>		
+<input name="qid" required class="form-control" type="text" placeholder="" />
+</div>  
+<div class="form-group"> 
+<label>
+<h4>Cab Type</h4></label>		
+<input name="qid" required class="form-control" type="text" placeholder="" />
+</div> 
 <div class="form-group">
-<label><h4>Manager ID</h4></label>  
+<label>
+<h4>Vendor </h4></label>  
 <input name="mid" required class="form-control" type="text" placeholder="" />
 </div>
 <div class="form-group">
-<label><h4>Operation ID</h4></label>
+<label>
+<h4>Guard Alloted </h4></label>  
+<select class="form-control"><option>Yes</option><option selected>No</option></select>
+</div>
+<div class="form-group">
+<label>
+<h4>Address</h4></label>
 <input name="oid" required class="form-control" type="text" placeholder="" />
 </div>
                         
 <div class="form-group">
-<label><h4>Pick Up Time</h4></label>
+<label>
+<h4>Contact No.</h4></label>
 <input name="ptime" class="form-control" type="text" placeholder="" />
 </div>
 
-<div class="form-group">
-<label><h4>Pick Up Location</h4></label>
-<input name="ploc" class="form-control" type="text" placeholder="" />
-</div>
-
-<div class="form-group">
-<label><h4>Drop Location</h4></label>
-<input name="dloc" class="form-control" type="text" placeholder="" />
-</div>
-
-<div class="form-group">
-<label><h4>Reason</h4></label>
-<textarea name="reason" required class="form-control" type="text" placeholder="" /></textarea>
-</div>
-
-<div class="form-group">
-<input  class="btn btn-primary pull-right" type="submit" value="Submit" name="submit" />
+<div class="btn-toolbar">
+  <button type="button" class="btn btn-primary btn-color btn-bg-color btn-sm col-xs-2 margin-left">
+      <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> ADD
+    </button>
+    <button type="button" class="btn btn-primary btn-color btn-bg-color btn-sm col-xs-4 margin-left">
+      <span class="glyphicon glyphicon-edit" aria-hidden="true"></span> UPDATE
+    </button>
+     <button type="button" class="btn btn-danger btn-color btn-bg-color btn-sm col-xs-3 margin-left">
+      <span class="glyphicon glyphicon-remove-sign" aria-hidden="true"></span> REMOVE
+    </button>
+     <button type="button" class="btn btn-primary btn-color btn-bg-color btn-sm col-xs-2 margin-left">
+      <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> VIEW
+    </button>
 </div>
 </form>
 </div>
@@ -390,16 +392,20 @@ $que="INSERT INTO unschedule VALUES('$bookdate','$qid', '$mid','$opid','$ptime',
 </div>
 		<div class="col-md-2  my-sidebar affix">
 			<div class="list-group">
-                    <a href="user_profile.php" class="list-group-item active">
-                    Edit Profile
+                    <a href="super_notify" class="list-group-item active">
+                    Notification
                     </a>
               
-                    <a href="unsheduled.php" class="list-group-item">UnScheduled Cabs
+                    <a href="super_vendor.php" class="list-group-item">Vendor
                     </a>
-                    <a href="shift.php" class="list-group-item">Shift Change
+                    <a href="super_driver.php" class="list-group-item">Driver
                     </a>
  
-                    <a href="notify.php" class="list-group-item">Notification
+                    <a href="super_cluster.php" class="list-group-item">Clustering
+                    </a>
+                     <a href="super_report.php" class="list-group-item">Report
+                    </a>
+                     <a href="super_employee.php" class="list-group-item">Employee Detail
                     </a>
                     </div>
                     

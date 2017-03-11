@@ -32,7 +32,7 @@ if(!isset($_SESSION["ename"]))
                     
              <div class="content">
     	<div class="row">
-        	<div class="col-lg-offset-1 col-lg-7 well">         
+        	<div class="col-lg-offset-1 col-lg-8 well">         
     
                
                       <?php
@@ -122,7 +122,7 @@ if(!isset($_SESSION["ename"]))
                         <input type="submit" name="submit" class="btn btn-primary" value="Submit"/>
                 </form>                    
 </div>
-<div class="col-lg-3  my-sidebar affix">
+<div class="col-lg-2  my-sidebar affix">
   <div class="list-group">
                     <a href="user_profile.php" class="list-group-item active">
                      Edit Profile

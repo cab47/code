@@ -2,25 +2,16 @@
 <html>
 <head>
 <script type="text/javascript">
-
-function cur_date(){
-    var day=new Date().getDate();
-    var month=new Date().getMonth()+1;
-    var year= new Date().getFullYear();
-    document.getElementById("date").value= day+"/"+month+"/"+year;
-}
-
 </script></head>
-<body onLoad="cur_date();">
-	<?php
+<body >
+<?php
 require_once("core/sessioncheck.php");
 
 ?>
 <?php
 	require("core/head.php");
 	
-?> 
-
+?>
 <?php
 	require("core/logo.php");
 	require("config/connection.php");
@@ -329,7 +320,7 @@ $que="INSERT INTO unschedule VALUES('$bookdate','$qid', '$mid','$opid','$ptime',
 
 <div class="page-header col-lg-10 col-lg-offset-1">
                     
-                     <h1>Unscheduled Cab</h1>
+                     <h1>Employee Detail</h1>
    </div>  
                
 <div class="content">
@@ -339,67 +330,51 @@ $que="INSERT INTO unschedule VALUES('$bookdate','$qid', '$mid','$opid','$ptime',
                 	
                     <div class="row col-sm-offset-1">	
 <form name="unschedule" onSubmit="return res(this)" class="col-md-8" method="POST">
-
-<div class="form-group">
-<label><h4>DATE</h4></label>
-<input name="date" id="date" value="" class="form-control" type="text" placeholder="" />
+ <div class="input-group col-sm-6">
+  
+  <input type="text" nsme="search" placeholder="Employee Name" class="form-control ">
+    <span class="input-group-btn">
+        <button class="btn btn-default " type="button"><spam class="glyphicon glyphicon-search" ></spam>Go!</button>
+   </span>
+ 
 </div>
-
-<div class="form-group">
-<label><h4>QuickLook Id</h4></label>		
-<input name="qid" required class="form-control" value="<?php echo $_SESSION['qlid'] ?>" type="text" readonly="true" placeholder="" />
-</div>   
-<div class="form-group">
-<label><h4>Manager ID</h4></label>  
-<input name="mid" required class="form-control" type="text" placeholder="" />
+  </form>
+  
+  
 </div>
-<div class="form-group">
-<label><h4>Operation ID</h4></label>
-<input name="oid" required class="form-control" type="text" placeholder="" />
-</div>
-                        
-<div class="form-group">
-<label><h4>Pick Up Time</h4></label>
-<input name="ptime" class="form-control" type="text" placeholder="" />
-</div>
-
-<div class="form-group">
-<label><h4>Pick Up Location</h4></label>
-<input name="ploc" class="form-control" type="text" placeholder="" />
-</div>
-
-<div class="form-group">
-<label><h4>Drop Location</h4></label>
-<input name="dloc" class="form-control" type="text" placeholder="" />
-</div>
-
-<div class="form-group">
-<label><h4>Reason</h4></label>
-<textarea name="reason" required class="form-control" type="text" placeholder="" /></textarea>
-</div>
-
-<div class="form-group">
-<input  class="btn btn-primary pull-right" type="submit" value="Submit" name="submit" />
-</div>
-</form>
-</div>
-<div class="row">
+<div class="row" >
 <div id="result">
+<table width="716" border="1" margin-left="5px">
+    <tr>
+      <th width="59" scope="col">Q.Look ID</th>
+      <th width="80" scope="col">Name</th>
+      <th width="77" scope="col">Cluster</th>
+      <th width="76" scope="col">Cab No</th>
+      <th width="59" scope="col">Driver No</th>
+      <th width="72" scope="col">Contact No</th>
+       <th width="59" scope="col">Shift</th>
+      <th width="72" scope="col">Email_Id</th>
+    </tr>
+  </table>
 </div>
 </div>
 </div>
 		<div class="col-md-2  my-sidebar affix">
 			<div class="list-group">
-                    <a href="user_profile.php" class="list-group-item active">
-                    Edit Profile
+                    <a href="super_notify" class="list-group-item active">
+                    Notification
                     </a>
               
-                    <a href="unsheduled.php" class="list-group-item">UnScheduled Cabs
+                    <a href="super_vendor.php" class="list-group-item">Vendor
                     </a>
-                    <a href="shift.php" class="list-group-item">Shift Change
+                    <a href="super_driver.php" class="list-group-item">Driver
                     </a>
  
-                    <a href="notify.php" class="list-group-item">Notification
+                    <a href="super_cluster.php" class="list-group-item">Clustering
+                    </a>
+                     <a href="super_report.php" class="list-group-item">Report
+                    </a>
+                     <a href="super_employee.php" class="list-group-item">Employee Detail
                     </a>
                     </div>
                     

@@ -96,11 +96,13 @@ session_start();
                     <div class="container">
              
                     <div class="carousel-caption">
-                    <h1>Welcome To NCR</h1>
+
+                    <h1>Welcome To NCR Corporation</h1>
+
               
                     
                    
-                   <p>Serving the Nation from 150 Years</p>
+                   <p>Serving the Nation from 130 Years</p>
                <p><a class="btn btn-lg btn-primary" href="services.php" role="button">Our Services</a></p>
                     </div>
                     </div>
@@ -133,7 +135,7 @@ session_start();
 <div class="dock">
                     <div class="container">
                    
-                    If You Need Any Kind of Help Related to Booking, Canceling, Reservation etc. 
+                     
                     <strong>
                     <a href="FAQ.htm">Click On Me</a>
                     </strong>
